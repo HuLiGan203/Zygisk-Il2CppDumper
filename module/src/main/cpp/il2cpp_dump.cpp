@@ -339,8 +339,8 @@ void il2cpp_api_init(void *handle) {
         LOGI("Waiting for il2cpp_init...");
         sleep(1);
     }
-    auto domain = il2cpp_domain_get();
-    il2cpp_thread_attach(domain);
+   // auto domain = il2cpp_domain_get();
+    //il2cpp_thread_attach(domain);
 }
 
 void il2cpp_dump(const char *outDir) {
